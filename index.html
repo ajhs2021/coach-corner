@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Coach's Corner | Home</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<header>
+<h1>⚽ Coach’s Corner</h1>
+<nav>
+<a href="index.html">Home</a>
+<a href="schedule.html">Schedule</a>
+<a href="notes.html">Notes & Activities</a>
+</nav>
+</header>
+
+<main>
+<section class="post" data-post-id="post-1">
+<h2>Game Tomorrow! 🥅</h2>
+<p>Don’t forget your shin guards and water bottles! Meet at the field by 3:45 PM.</p>
+
+<div class="comment-section"></div>
+<form class="comment-form">
+<textarea placeholder="Leave a comment..."></textarea>
+<button type="submit">Send</button>
+</form>
+</section>
+
+<section class="post" data-post-id="post-2">
+<h2>Practice Reminder</h2>
+<p>Practice is Thursday — wear blue and bring your A-game! 💪</p>
+
+<div class="comment-section"></div>
+<form class="comment-form">
+<textarea placeholder="Leave a comment..."></textarea>
+<button type="submit">Send</button>
+</form>
+</section>
+</main>
+
+<footer>
+<button id="admin-login-btn">Admin Login</button>
+<input type="password" id="admin-password" placeholder="Password" />
+<p>Made by Mr. Anthony • Think Together ⚽</p>
+</footer>
+
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+<script src="js/firebase-config.js"></script>
+<script src="js/comments.js"></script>
+<script src="js/admin.js"></script>
+</body>
+</html>
